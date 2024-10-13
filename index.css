@@ -1,0 +1,35 @@
+/* Gunakan font Montserrat di seluruh halaman */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Menggunakan font Montserrat dengan ketebalan */
+  color: #333;
+}
+
+.item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.item .content {
+  margin-top: 10px;
+}
